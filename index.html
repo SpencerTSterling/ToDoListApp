@@ -13,7 +13,10 @@
 <body>
     <h1>To Do List</h1>
     
+    <!-- DIV for adding a new task, inputting title,
+        due date, and completion status -->
     <div id="task-creation">
+        <h2>Add a new task</h2>
         <!-- For the title of the task -->
         <label for="title">Title</label> <br>
         <input type="text" id="title">
@@ -33,6 +36,13 @@
 
         <!-- Button to add the task -->
         <input type="button" value="Add ToDo Item">
+    </div>
+
+    <!-- DIV for display the incomplete and complete tasks added by the user -->
+    <div id="task-list">
+        <h3>ToDo Items</h3>
+        <div id="incomplete-items"></div>
+        <div id="complete-items"></div>
     </div>
 
 

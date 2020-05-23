@@ -7,7 +7,19 @@ h1{
 div#task-creation{
     float: left;
     width: 30%;
-    margin: 5%;
+    margin: 3%;
+    padding: 3%;
+    border: 2px solid rgb(196, 196, 196);
+    background-color: rgb(245, 245, 234);
+}
+
+div#task-list{
+    float: left;
+    width: 45%;
+    margin: 3%;
+    padding: 3%;
+    border: 2px solid rgb(196, 196, 196);
+    background-color:rgb(245, 245, 234);
 }
 
 input[type=text]{
@@ -23,6 +35,10 @@ input[type=text]{
 
 input[type=text]:focus{
     background-color: rgb(221, 229, 241);
+}
+
+input[type="checkbox"]{
+    margin: 2%;
 }
 
 input[type=button]{
