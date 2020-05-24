@@ -37,7 +37,7 @@ input[type=text]:focus{
     background-color: rgb(221, 229, 241);
 }
 
-input[type="checkbox"]{
+input[type=checkbox]{
     margin: 2%;
 }
 
