@@ -7,3 +7,6 @@ Functional To Do List application that can keep track of multiple to-do items an
 - Show all created tasks
 - Allow user to mark tasks as completed
 - Show difference between completed and uncompleted tasks
+
+## Check out the live site
+https://spencertsterling.github.io/ToDoListApp/
