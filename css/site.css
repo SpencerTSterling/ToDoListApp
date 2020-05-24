@@ -1,7 +1,10 @@
 h1{
-    background-color: rgb(245, 245, 234);
+    background-color: rgb(245, 245, 234);;
     text-align: center;
     padding: 20px;   
+}
+h2{
+    text-align: center;
 }
 
 div#task-creation{
@@ -9,7 +12,7 @@ div#task-creation{
     width: 30%;
     margin: 3%;
     padding: 3%;
-    border: 2px solid rgb(196, 196, 196);
+    border: 2px solid #f2f0e9;
     background-color: rgb(245, 245, 234);
 }
 
@@ -18,8 +21,29 @@ div#task-list{
     width: 45%;
     margin: 3%;
     padding: 3%;
-    border: 2px solid rgb(196, 196, 196);
+    border: 2px solid #f2f0e9;
     background-color:rgb(245, 245, 234);
+}
+
+.todo{
+    margin: 1em;
+    padding: 0.5em;
+    background-color: lightblue;
+    border-radius: 4px;
+}
+
+.todo h3{
+    margin: 0px;
+}
+
+.todo p{
+    margin: 0px;
+    font-size: small;
+}
+
+.completed{
+    opacity: 50%;
+    background-color: lightgreen;
 }
 
 input[type=text]{
@@ -56,4 +80,5 @@ input[type=button]{
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #fcfceb
 }

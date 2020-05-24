@@ -74,16 +74,17 @@ function displayToDoItem(item:ToDoItem):void {
     // displays item's due date as a string in <p>
     // ex. <p>June 1st 2020</p>
     let itemDate = document.createElement("p");
-    itemDate.innerText = item.dueDate.toString();
+    itemDate.innerText = item.dueDate.toDateString();
 
     // ex. <div class="completed></div>
     let itemDiv = document.createElement("div");
+    itemDiv.classList.add("todo");
     if(item.isCompleted){
         itemDiv.classList.add("completed");
     }
 
     /*
-        <div class="completed">         <div>
+        <div class="completed todo">         <div class="todo">
             <h3> </h3>                        <h3> </h3>
             <p>   </P>                        <p>   </p>
         </div>                          <div>

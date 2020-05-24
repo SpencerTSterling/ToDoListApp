@@ -30,8 +30,9 @@ function displayToDoItem(item) {
     var itemText = document.createElement("h3");
     itemText.innerText = item.title;
     var itemDate = document.createElement("p");
-    itemDate.innerText = item.dueDate.toString();
+    itemDate.innerText = item.dueDate.toDateString();
     var itemDiv = document.createElement("div");
+    itemDiv.classList.add("todo");
     if (item.isCompleted) {
         itemDiv.classList.add("completed");
     }
