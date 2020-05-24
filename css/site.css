@@ -30,6 +30,7 @@ div#task-list{
     padding: 0.5em;
     background-color: lightblue;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .todo h3{
@@ -44,6 +45,17 @@ div#task-list{
 .completed{
     opacity: 50%;
     background-color: lightgreen;
+    text-decoration: line-through;
+}
+
+#complete-items{
+    border: 2px dotted #bebebd;
+    margin: 0.5em;
+}
+
+#incomplete-items{
+    margin: 0.5em;
+    border: 2px solid #bebebd;
 }
 
 input[type=text]{
